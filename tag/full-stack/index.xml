@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Full Stack | Xinhao Xiang</title>
+    <link>https://shanexiangh.github.io/xinhao-xiang/tag/full-stack/</link>
+      <atom:link href="https://shanexiangh.github.io/xinhao-xiang/tag/full-stack/index.xml" rel="self" type="application/rss+xml" />
+    <description>Full Stack</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 Oct 2021 02:50:56 +0000</lastBuildDate>
+    <image>
+      <url>https://shanexiangh.github.io/xinhao-xiang/media/icon_hu97fa295c981cf3619a2662561ff5587f_2164830_512x512_fill_lanczos_center_3.png</url>
+      <title>Full Stack</title>
+      <link>https://shanexiangh.github.io/xinhao-xiang/tag/full-stack/</link>
+    </image>
+    
+    <item>
+      <title>Plane Fight Game</title>
+      <link>https://shanexiangh.github.io/xinhao-xiang/project/plane-fight-game/</link>
+      <pubDate>Fri, 22 Oct 2021 02:50:56 +0000</pubDate>
+      <guid>https://shanexiangh.github.io/xinhao-xiang/project/plane-fight-game/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Utilized STM32CubeIDE to program a STM32 firmware to run the Plane Flight on a chip;&lt;/li&gt;
+&lt;li&gt;Employed Positive point atom’s packet to generate basic lines and cures to form complex object shapes;&lt;/li&gt;
+&lt;li&gt;Applied framing animation module to run the game;&lt;/li&gt;
+&lt;li&gt;Saved game data and rendered LCD screen based on the data.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SUSTech Mahjong</title>
+      <link>https://shanexiangh.github.io/xinhao-xiang/project/sustech-mahjong/</link>
+      <pubDate>Fri, 22 Oct 2021 02:50:56 +0000</pubDate>
+      <guid>https://shanexiangh.github.io/xinhao-xiang/project/sustech-mahjong/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Utilized OOAD design pattern to write the logic and implemented the logic on the client;&lt;/li&gt;
+&lt;li&gt;Designed the logic and implemented the functions including dealing, casting, as well as game mall.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Word Cloud</title>
+      <link>https://shanexiangh.github.io/xinhao-xiang/project/word-cloud/</link>
+      <pubDate>Fri, 22 Oct 2021 02:50:56 +0000</pubDate>
+      <guid>https://shanexiangh.github.io/xinhao-xiang/project/word-cloud/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Read a photo file of the portrait and grabbed the outline of the portrait;&lt;/li&gt;
+&lt;li&gt;Segmented the text into words and determined the word size according to the word frequency;&lt;/li&gt;
+&lt;li&gt;Designed the user interface to choose photos and text file in PC, as well as the number of words user wants to display;&lt;/li&gt;
+&lt;li&gt;Generated a word cloud, in which the words are in the outline of a portrait and the size of words are correspondent to their frequency&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

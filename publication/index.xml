@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Xinhao Xiang</title>
+    <link>https://shanexiangh.github.io/xinhao-xiang/publication/</link>
+      <atom:link href="https://shanexiangh.github.io/xinhao-xiang/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 08 Jul 2021 03:53:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shanexiangh.github.io/xinhao-xiang/media/icon_hu97fa295c981cf3619a2662561ff5587f_2164830_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://shanexiangh.github.io/xinhao-xiang/publication/</link>
+    </image>
+    
+    <item>
+      <title>Robotic Brain Storm Optimization: A Multi-target Collaborative Searching Paradigm for Swarm Robotics</title>
+      <link>https://shanexiangh.github.io/xinhao-xiang/publication/rbso/</link>
+      <pubDate>Thu, 08 Jul 2021 03:53:00 +0000</pubDate>
+      <guid>https://shanexiangh.github.io/xinhao-xiang/publication/rbso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploration Enhanced RPSO for Collaborative Multitarget Searching of Robotic Swarms</title>
+      <link>https://shanexiangh.github.io/xinhao-xiang/publication/e2rpso/</link>
+      <pubDate>Sun, 29 Nov 2020 04:39:21 +0000</pubDate>
+      <guid>https://shanexiangh.github.io/xinhao-xiang/publication/e2rpso/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

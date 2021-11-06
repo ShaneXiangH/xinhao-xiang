@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python | Xinhao Xiang</title>
+    <link>https://shanexiangh.github.io/xinhao-xiang/category/python/</link>
+      <atom:link href="https://shanexiangh.github.io/xinhao-xiang/category/python/index.xml" rel="self" type="application/rss+xml" />
+    <description>Python</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 Oct 2021 02:50:56 +0000</lastBuildDate>
+    <image>
+      <url>https://shanexiangh.github.io/xinhao-xiang/media/icon_hu97fa295c981cf3619a2662561ff5587f_2164830_512x512_fill_lanczos_center_3.png</url>
+      <title>Python</title>
+      <link>https://shanexiangh.github.io/xinhao-xiang/category/python/</link>
+    </image>
+    
+    <item>
+      <title>Commonly Used Text Input Based on Speech Recognition</title>
+      <link>https://shanexiangh.github.io/xinhao-xiang/project/commonly-used-text-input-based-on-speech-recognition/</link>
+      <pubDate>Fri, 22 Oct 2021 02:50:56 +0000</pubDate>
+      <guid>https://shanexiangh.github.io/xinhao-xiang/project/commonly-used-text-input-based-on-speech-recognition/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Applied AI models to develop a speech recognition application to improve content input efficiency;&lt;/li&gt;
+&lt;li&gt;Stored pairs of contents and names defined by users in local database, and implemented the function of audio triggered content input;&lt;/li&gt;
+&lt;li&gt;Applied VGG+CTC as Speech Model to extract Pinyin characters from .wav file, and then converted Pinyin characters into Chinese characters with Hidden Markov Model with Maximum Entropy Based on Probability Graph as the language model;&lt;/li&gt;
+&lt;li&gt;Employed Free ST Chinese Mandarin Corpus as dataset for training.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Melanoma Classification</title>
+      <link>https://shanexiangh.github.io/xinhao-xiang/project/melanoma-classification/</link>
+      <pubDate>Fri, 22 Oct 2021 02:50:56 +0000</pubDate>
+      <guid>https://shanexiangh.github.io/xinhao-xiang/project/melanoma-classification/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Implemented a GooLeNet to complete a binary classification to judge if a given Melanoma by a picture is benign or malignant. The best accuracy is around 81%- 82% within 200 epochs;&lt;/li&gt;
+&lt;li&gt;Shared my trained model with groupmates and use bagging to combine all the members’ model together, the overall accuracy is improved by round 0.6 percent after adding my model.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taxi data visualization and popular area mining</title>
+      <link>https://shanexiangh.github.io/xinhao-xiang/project/taxi-data-visualization-and-popular-area-mining/</link>
+      <pubDate>Fri, 22 Oct 2021 02:50:56 +0000</pubDate>
+      <guid>https://shanexiangh.github.io/xinhao-xiang/project/taxi-data-visualization-and-popular-area-mining/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Using GPS data of taxis in Shenzhen City in a day to mine information;&lt;/li&gt;
+&lt;li&gt;Use Deck.GL to display each taxi’s dynamic track in one map, also to use it to display popular pick-up and drop-off areas;&lt;/li&gt;
+&lt;li&gt;Analysis traffic jam condition and order condition in each administrative district. and speed;&lt;/li&gt;
+&lt;li&gt;Statistical velocity distribution by hour in Shennan Avenue, and do visualization;&lt;/li&gt;
+&lt;li&gt;Predict the time it will take for a taxi to arrive at specific spots.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
