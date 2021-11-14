@@ -96,18 +96,6 @@
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
     
     
@@ -274,6 +262,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H1V8K64WHY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-H1V8K64WHY', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -344,7 +371,13 @@
   
 
   
-
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WG2MNMR');</script>
+  <!-- End Google Tag Manager -->
   
 
 
@@ -359,7 +392,10 @@
 
   
   
-  
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WG2MNMR"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->  
   
   
   
@@ -1026,134 +1062,6 @@
   
 
   
-  <section id="accomplishments" class="home-section wg-accomplishments  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Accomplish­ments</h1>
-            
-          </div>
-        
-      
-    
-
-      
-
-
-
-
-<div class="col-12 col-lg-8">
-  
-
-  
-  
-    <div class="card experience course">
-      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Excellent Graduate for Exceptional Performance in the SUSTech</div><div class="card-subtitle my-0 article-metadata">SUSTech<span class="middot-divider"></span>
-
-              Jun 2021
-              
-            </div>
-
-        
-
-        
-      </div>
-    </div>
-  
-    <div class="card experience course">
-      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Highest Honors in Computer Science and Engineering for outstanding achievement in the undergraduate program (2017-2021)</div><div class="card-subtitle my-0 article-metadata">SUSTech CSE<span class="middot-divider"></span>
-
-              Jun 2021
-              
-            </div>
-
-        
-
-        
-      </div>
-    </div>
-  
-    <div class="card experience course">
-      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Shuren College Outstanding Graduates for Exceptional Performance in the SUSTech</div><div class="card-subtitle my-0 article-metadata">SUSTech Shuren College<span class="middot-divider"></span>
-
-              Jun 2021
-              
-            </div>
-
-        
-
-        
-      </div>
-    </div>
-  
-  
-</div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
   <section id="researchs" class="home-section wg-portfolio  "  >
    <div class="home-section-bg " >
      
@@ -1512,6 +1420,134 @@
 
     
   </div>
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="accomplishments" class="home-section wg-accomplishments  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Accomplish­ments</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+  
+    <div class="card experience course">
+      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Excellent Graduate for Exceptional Performance in the SUSTech</div><div class="card-subtitle my-0 article-metadata">SUSTech<span class="middot-divider"></span>
+
+              Jun 2021
+              
+            </div>
+
+        
+
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Highest Honors in Computer Science and Engineering for outstanding achievement in the undergraduate program (2017-2021)</div><div class="card-subtitle my-0 article-metadata">SUSTech CSE<span class="middot-divider"></span>
+
+              Jun 2021
+              
+            </div>
+
+        
+
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Shuren College Outstanding Graduates for Exceptional Performance in the SUSTech</div><div class="card-subtitle my-0 article-metadata">SUSTech Shuren College<span class="middot-divider"></span>
+
+              Jun 2021
+              
+            </div>
+
+        
+
+        
+      </div>
+    </div>
+  
+  
 </div>
 
 
@@ -2965,477 +3001,11 @@
 
   </ul>
 
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=H_zPFCnlIMloYcThVyjlq2MdMiiMplYMGD8PEmRgy1A"></script>
+
   
 
 </div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="demo" class="home-section wg-blank  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  justify-content-center">
-      
-    
-
-      
-
-
-
-  <div class="col-12 col-lg-8">
-    
-  </div>
-
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="experience" class="home-section wg-blank  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  justify-content-center">
-      
-    
-
-      
-
-
-
-  <div class="col-12 col-lg-8">
-    
-  </div>
-
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="featured" class="home-section wg-blank  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  justify-content-center">
-      
-    
-
-      
-
-
-
-  <div class="col-12 col-lg-8">
-    
-  </div>
-
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="posts" class="home-section wg-blank  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  justify-content-center">
-      
-    
-
-      
-
-
-
-  <div class="col-12 col-lg-8">
-    
-  </div>
-
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="tags" class="home-section wg-blank  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  justify-content-center">
-      
-    
-
-      
-
-
-
-  <div class="col-12 col-lg-8">
-    
-  </div>
-
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="talks" class="home-section wg-blank  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  justify-content-center">
-      
-    
-
-      
-
-
-
-  <div class="col-12 col-lg-8">
-    
-  </div>
-
 
 
     
@@ -3463,6 +3033,10 @@
 
   
 
+  
+  <p class="powered-by">
+    © {2021} Xinhao Xiang. All Rights Reserved.
+  </p>
   
 
   

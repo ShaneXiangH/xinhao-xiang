@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shanexiangh.github.io/xinhao-xiang/home_barn/ending/</loc>
+  </url><url>
     <loc>https://shanexiangh.github.io/xinhao-xiang/talk/example-talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
@@ -132,5 +134,19 @@
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shanexiangh.github.io/xinhao-xiang/admin/</loc>
+  </url><url>
+    <loc>https://shanexiangh.github.io/xinhao-xiang/home_barn/demo/</loc>
+  </url><url>
+    <loc>https://shanexiangh.github.io/xinhao-xiang/home_barn/experience/</loc>
+  </url><url>
+    <loc>https://shanexiangh.github.io/xinhao-xiang/home_barn/featured/</loc>
+  </url><url>
+    <loc>https://shanexiangh.github.io/xinhao-xiang/home_barn/posts/</loc>
+  </url><url>
+    <loc>https://shanexiangh.github.io/xinhao-xiang/home_barn/tags/</loc>
+  </url><url>
+    <loc>https://shanexiangh.github.io/xinhao-xiang/home_barn/talks/</loc>
+  </url><url>
+    <loc>https://shanexiangh.github.io/xinhao-xiang/home_barn/</loc>
   </url>
 </urlset>

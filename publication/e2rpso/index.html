@@ -246,6 +246,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H1V8K64WHY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-H1V8K64WHY', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -950,17 +989,20 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"><div class="alert alert-note">
+    <div class="article-style"><!-- <div class="alert alert-note">
   <div>
     Click the <em>Cite</em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
   </div>
 </div>
+
+
 <div class="alert alert-note">
   <div>
     Create your slides in Markdown - click the <em>Slides</em> button to check out the example.
   </div>
 </div>
-<p>Supplementary notes can be added here, including <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">code, math, and images</a>.</p>
+ -->
+<!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->
 </div>
 
     
@@ -1131,6 +1173,10 @@
 
   
 
+  
+  <p class="powered-by">
+    © {2021} Xinhao Xiang. All Rights Reserved.
+  </p>
   
 
   
