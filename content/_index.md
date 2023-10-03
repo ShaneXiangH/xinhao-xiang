@@ -257,7 +257,7 @@ sections:
       phone: 1-(408)-601-8318
       appointment_url: 'https://calendly.com/xhxiang'
       address:
-        street: Academic Surge Building 2271, 455 Crocker Ln
+        street: Academic Surge Building 2251, 455 Crocker Ln
         city: Davis
         region: CA
         postcode: '95616'
