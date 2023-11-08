@@ -1,30 +1,10 @@
 ---
-# abstract: Particle Swarm Optimization (PSO) is an excellent population-based
-#   optimization algorithm. Meanwhile, because of its inspiration source and the
-#   velocity update feature, it is also widely used in the collaborative searching
-#   tasks for swarm robotics. One of the PSO-based models for robotic swarm
-#   searching tasks is Robotic PSO (RPSO). It adds additional items for obstacle
-#   avoidance into standard PSO and has been applied to many single-target search
-#   tasks. However, due to PSO’s global optimization characteristics, it is easy
-#   to converge to a specific position in the search space and lose the ability to
-#   explore further. When faced with the problem of multitarget searching, it may
-#   become inefficient or even invalid. This paper proposes an Exploration
-#   Enhanced Robotic PSO (E2RPSO) method for multitarget searching problems for
-#   robotic swarms. The proposed method modifies the third item in the RPSO as an
-#   additional attraction term. This item not only enables the robot to avoid
-#   collisions but also guides the swarm to search unexplored regions as much as
-#   possible. This operation increases the swarm’s task-specific (top-down)
-#   diversity, making the system cover a broader search area and avoid falling
-#   into local optimums. Besides, the aggregation degree and evolution speed
-#   factors are also included in determining the inertia weight of the proposed
-#   method, which adjusts the swarm’s internal (bottom-up) diversity dynamically.
-#   The comparison results show that this method can balance the relationship
-#   between exploration and exploitation well, which has the potential to be
-#   applied to multitarget searching scenarios.
+abstract: Good 3D object detection performance from LiDAR-Camera sensors demands seamless feature alignment and fusion strategies. We propose the 3DifFusionDet framework in this paper, which structures 3D object detection as a denoising diffusion process from noisy 3D boxes to target boxes. In this framework, ground truth boxes diffuse in a random distribution for training, and the model learns to reverse the noising process. During inference, the model gradually refines a set of boxes that were generated at random to the outcomes. Under the feature align strategy, the progressive refinement method could make a significant contribution to robust LiDAR-Camera fusion. The iterative refinement process could also demonstrate great adaptability by applying the framework to various detecting circumstances where varying levels of accuracy and speed are required. Extensive experiments on KITTI, a benchmark for real-world traffic object identification, revealed that 3DifFusionDet is able to perform favorably in comparison to earlier, well-respected detectors.
 # slides: example
 # url_pdf: "https://downloads.hindawi.com/journals/complexity/2020/8863526.pdf"
-publication_types:
-  - "1"
+
+# publication_types:
+#   - "Preprint"
 authors:
   - Xinhao Xiang
   - Simon Dräger
@@ -34,7 +14,7 @@ authors:
 #   - Ruilin Xiong
 #   - and Xinhao Xiang contributed equally to this work
 publication: Under Review 
-summary: "Under Review"
+summary: "A novel 3D Object Detection method that structure the task as a denoising diffusion process from noisy 3D boxes to target boxes."
 
 url_dataset: ""
 url_project: ""
@@ -44,6 +24,7 @@ url_source: ""
 title: "3DifFusionDet: Diffusion Model for 3D Object Detection with Robust LiDAR-Camera Fusion"
 # doi: https://doi.org/10.1155/2020/8863526
 featured: false
+url_pdf: "http://arxiv.org/abs/2311.03742"
 
 tags: []
 # projects:

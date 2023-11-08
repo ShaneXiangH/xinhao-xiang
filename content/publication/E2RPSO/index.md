@@ -23,8 +23,8 @@ abstract: Particle Swarm Optimization (PSO) is an excellent population-based
   applied to multitarget searching scenarios.
 # slides: example
 url_pdf: "https://downloads.hindawi.com/journals/complexity/2020/8863526.pdf"
-publication_types:
-  - "2"
+# publication_types:
+#   - "Journal article"
 authors:
   - Jian Yang
   - Ruilin Xiong
@@ -34,8 +34,8 @@ author_notes:
   - Jian Yang
   - Ruilin Xiong
   - and Xinhao Xiang contributed equally to this work
-publication: In *Complexity, Hindawi*
-summary: "This paper proposes an Exploration Enhanced Robotic PSO (E2RPSO) method for multitarget searching problems for robotic swarms."
+publication: Complexity, Hindawi
+summary: "An multitarget searching method for robotic swarms."
 
 url_dataset: ""
 url_project: ""
@@ -50,11 +50,11 @@ featured: false
 tags: []
 projects:
   - SUSTech
-image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
-  focal_point: ""
-  preview_only: false
-date: 2020-11-29T04:39:21.092Z
+# image:
+#   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
+#   focal_point: ""
+#   preview_only: false
+# date: 2020-11-29T04:39:21.092Z
 
 url_slides: ""
 publishDate: 2020-11-29T04:39:21.092Z

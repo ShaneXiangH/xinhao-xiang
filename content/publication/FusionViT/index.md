@@ -1,30 +1,9 @@
 ---
-# abstract: Particle Swarm Optimization (PSO) is an excellent population-based
-#   optimization algorithm. Meanwhile, because of its inspiration source and the
-#   velocity update feature, it is also widely used in the collaborative searching
-#   tasks for swarm robotics. One of the PSO-based models for robotic swarm
-#   searching tasks is Robotic PSO (RPSO). It adds additional items for obstacle
-#   avoidance into standard PSO and has been applied to many single-target search
-#   tasks. However, due to PSO’s global optimization characteristics, it is easy
-#   to converge to a specific position in the search space and lose the ability to
-#   explore further. When faced with the problem of multitarget searching, it may
-#   become inefficient or even invalid. This paper proposes an Exploration
-#   Enhanced Robotic PSO (E2RPSO) method for multitarget searching problems for
-#   robotic swarms. The proposed method modifies the third item in the RPSO as an
-#   additional attraction term. This item not only enables the robot to avoid
-#   collisions but also guides the swarm to search unexplored regions as much as
-#   possible. This operation increases the swarm’s task-specific (top-down)
-#   diversity, making the system cover a broader search area and avoid falling
-#   into local optimums. Besides, the aggregation degree and evolution speed
-#   factors are also included in determining the inertia weight of the proposed
-#   method, which adjusts the swarm’s internal (bottom-up) diversity dynamically.
-#   The comparison results show that this method can balance the relationship
-#   between exploration and exploitation well, which has the potential to be
-#   applied to multitarget searching scenarios.
+abstract: For 3D object detection, both camera and lidar have been demonstrated to be useful sensory devices for providing complementary information about the same scenery with data representations in different modalities, e.g., 2D RGB image vs 3D point cloud. An effective representation learning and fusion of such multi-modal sensor data is necessary and critical for better 3D object detection performance. To solve the problem, in this paper, we will introduce a novel vision transformer-based 3D object detection model, namely FusionViT. Different from the existing 3D object detection approaches, FusionViT is a pure-ViT based framework, which adopts a hierarchical architecture by extending the transformer model to embed both images and point clouds for effective representation learning. Such multi-modal data embedding representations will be further fused together via a fusion vision transformer model prior to feeding the learned features to the object detection head for both detection and localization of the 3D objects in the input scenery. To demonstrate the effectiveness of FusionViT, extensive experiments have been done on real-world traffic object detection benchmark datasets KITTI and Waymo Open. Notably, our FusionViT model can achieve state-of-the-art performance and outperforms not only the existing baseline methods that merely rely on camera images or lidar point clouds, but also the latest multi-modal image-point cloud deep fusion approaches.
 # slides: example
 # url_pdf: "https://downloads.hindawi.com/journals/complexity/2020/8863526.pdf"
-publication_types:
-  - "1"
+# publication_types:
+#   - "1"
 authors:
   - Xinhao Xiang
   - Jiawei Zhang
@@ -32,8 +11,9 @@ authors:
 #   - Jian Yang
 #   - Ruilin Xiong
 #   - and Xinhao Xiang contributed equally to this work
-# publication: In *Complexity, Hindawi*
-summary: "Under Review"
+publication: Under Review
+summary: "A ViT-pured hierarchical architecture that embed both Images and Point
+Clouds, fused via a mixViT for efficient 3D Object Detection. "
 
 url_dataset: ""
 url_project: ""
@@ -41,17 +21,19 @@ publication_short: ""
 url_source: ""
 # url_video: "https://drive.google.com/file/d/1-4rLMaELwzTadFjY1JglA715cdTOvUFk/view?usp=sharing"
 title: "FusionViT: Hierarchical 3D Object Detection via Lidar and Camera Vision Transformer Fusion"
-# doi: https://doi.org/10.1155/2020/8863526
+# doi: http://arxiv.org/abs/2311.03620
+
 featured: false
 
 tags: []
 # projects:
 #   - SUSTech
-image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
-  focal_point: ""
-  preview_only: false
-date: 2023-09-28T04:39:21.092Z
+# image:
+#   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
+#   focal_point: ""
+#   preview_only: false
+date: 2023-03-28T04:39:21.092Z
+url_pdf: "http://arxiv.org/abs/2311.03620" 
 
 url_slides: ""
 # publishDate: 2023-09-28T04:39:21.092Z

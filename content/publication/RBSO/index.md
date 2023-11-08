@@ -1,8 +1,8 @@
 ---
 title: "Robotic Brain Storm Optimization: A Multi-target Collaborative Searching
   Paradigm for Swarm Robotics"
-publication_types:
-  - "1"
+# publication_types:
+#   - "Conference paper"
 authors:
   - Jian Yang
   - Donghui Zhao
@@ -14,9 +14,9 @@ author_notes:
   - and Xinhao Xiang contributed equally to this work.
 doi: https://doi.org/10.1007/978-3-030-78811-7_16
 featured: false
-summary: "This paper proposes a BSO-based collaborative searching framework for swarm robotics called Robotic BSO."
+summary: "A BSO-based collaborative searching framework for swarm robotics."
 
-publication: Advances in Swarm Intelligence
+publication: ICSI'21
 abstract: Swarm intelligence optimization algorithms can be adopted in swarm
   robotics for target searching tasks in a 2-D or 3-D space by treating the
   target signal strength as fitness values. Many current works in the literature
@@ -40,10 +40,10 @@ draft: false
 tags: []
 projects:
   - SUSTech
-image:
-  filename: featured
-  focal_point: Smart
-  preview_only: false
+# image:
+#   filename: featured
+#   focal_point: Smart
+#   preview_only: false
 date: 2021-07-08T03:53:00.000Z
 url_pdf: "https://arxiv.org/pdf/2105.13108.pdf"
 url_source: ""

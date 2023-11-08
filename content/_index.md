@@ -214,6 +214,7 @@ sections:
   #     view: card
 
   - block: collection
+    id: published
     content:
       title: Publications
       text: |-
@@ -223,6 +224,22 @@ sections:
       filters:
         folders:
           - publication
+        # exclude_featured: true
+    design:
+      columns: '2'
+      view: 2
+    
+  - block: collection
+    id: published
+    content:
+      title: Archives
+      # text: |-
+      #   {{% callout note %}}
+      #   Quickly discover relevant content by [filtering publications](./publication/).
+      #   {{% /callout %}}
+      filters:
+        folders:
+          - publication_archives
         # exclude_featured: true
     design:
       columns: '2'
