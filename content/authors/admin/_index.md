@@ -59,7 +59,7 @@ social:
 
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=9KH4y58AAAAJ&hl
+    link: https://scholar.google.com/citations?hl=en&user=Rvkl2M8AAAAJ
 
   - icon: github
     icon_pack: fab
