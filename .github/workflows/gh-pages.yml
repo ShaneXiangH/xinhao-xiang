@@ -3,7 +3,7 @@ name: Deploy website to GitHub Pages
 on:
   push:
     branches:
-      - master  # Adjust the branch to whatever branch you're working with
+      - main  # Adjust the branch to whatever branch you're working with
   # pull_request:
   workflow_dispatch:
 
