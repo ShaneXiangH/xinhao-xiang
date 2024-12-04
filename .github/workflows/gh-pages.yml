@@ -1,39 +1,55 @@
-name: Deploy GitHub Pages
+name: Deploy website to GitHub Pages
 
 on:
   push:
     branches:
-      - master  # Set a branch name to trigger deployment
-  pull_request:
+      - master  # Adjust the branch to whatever branch you're working with
+  # pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  deploy:
-    runs-on: ubuntu-20.04
-    permissions:
-      contents: write
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+  build:
+    runs-on: ubuntu-latest
+    
+    # Use the custom Docker container
+    container:
+      image: xinhao666/hugo:0.119.0  # Replace with your actual Docker Hub username and image tag 
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
         with:
-          submodules: true  # Fetch any Git submodules (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          fetch-depth: 0
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+      - name: Install Node.js for Pagefind (Optional)
+        uses: actions/setup-node@v3
         with:
-          hugo-version: 'latest'
-          extended: true
+          node-version: '18'
 
-      - name: Build
-        run: hugo --minify
+      - name: Build with Hugo
+        run: |
+          hugo --minify
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        # If you're changing the branch from main, 
-        # also change the `main` in `refs/heads/main` 
-        # below accordingly.
-        if: ${{ github.ref == 'refs/heads/master' }}
+      - name: Generate Pagefind search index (Optional)
+        run: npx pagefind --source "public"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          path: ./public
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
