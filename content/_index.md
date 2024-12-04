@@ -225,12 +225,13 @@ sections:
         folders:
           - publication
         # exclude_featured: true
+      count: 1000  
     design:
       columns: '2'
       view: 2
-    
+
   - block: collection
-    id: published
+    id: archived
     content:
       title: Archives
       # text: |-
@@ -244,7 +245,7 @@ sections:
     design:
       columns: '2'
       view: 2
-
+      
   # - block: collection
   #   id: talks
   #   content:
@@ -270,11 +271,11 @@ sections:
       # text: |-
       #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: xinhao@ifmlab.org; xhxiang@ucdavis.edu
+      email: xhxiang@ucdavis.edu; xinhao@ifmlab.org; 
       phone: 1-(408)-601-8318
       appointment_url: 'https://calendly.com/xhxiang'
       address:
-        street: Academic Surge Building 2251, 455 Crocker Ln
+        street: Academic Surge Building 2271, 455 Crocker Ln
         city: Davis
         region: CA
         postcode: '95616'

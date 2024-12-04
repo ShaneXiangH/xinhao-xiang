@@ -3,8 +3,8 @@ abstract: Good 3D object detection performance from LiDAR-Camera sensors demands
 # slides: example
 # url_pdf: "https://downloads.hindawi.com/journals/complexity/2020/8863526.pdf"
 
-# publication_types:
-#   - "Preprint"
+publication_types:
+  - "Preprint"
 authors:
   - Xinhao Xiang
   - Simon Dräger

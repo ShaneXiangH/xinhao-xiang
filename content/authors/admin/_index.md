@@ -27,6 +27,7 @@ organizations:
 # Interests to show in About widget
 interests:
   - Computer Vision
+  - Generative AI
   - AI Robotics
 
 # Education to show in About widget
@@ -85,7 +86,7 @@ highlight_name: true
 
 <!--StartFragment-->
 
-I am currently a student pursing Doctorate of Philosophy in Computer Science degree in [University of California, Davis](https://www.ucdavis.edu/) advised by [Dr. Jiawei Zhang](http://jiaweizhang.net/). Prior to that, I got my Bachelor of Engineering degree from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/) advised by [Dr. Yuhui Shi](https://faculty.sustech.edu.cn/shiyh/en/). My research involve in Computer Vision (3D Object Detection, Point Cloud Perception, Segmentation) and AI Robotics (Swarm Intelligence, Path Planning).
+I am currently a student pursing Doctorate of Philosophy in Computer Science degree in [University of California, Davis](https://www.ucdavis.edu/) advised by [Dr. Jiawei Zhang](http://jiaweizhang.net/). Prior to that, I got my Bachelor of Engineering degree from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/) in Shenzhen, China, where I was in the  [Department of Computer Science and Engineering](http://cse.sustech.edu.cn/en/site/index/) and advised by [Dr. Yuhui Shi](https://faculty.sustech.edu.cn/shiyh/en/). My research involve in Computer Vision (3D Object Detection, Point Cloud Perception, Segmentation, Multi-model Fusion, Open-vocabulary Detection, Efficient Vision Models), Generative AI (AI Generated Video Evaluation, Multi-modal Language Models), and AI Robotics (Swarm Intelligence, Path Planning, Multi-target Optimization).
 
 <!--EndFragment-->
 

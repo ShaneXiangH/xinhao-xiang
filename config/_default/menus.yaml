@@ -25,8 +25,12 @@ main:
   #   weight: 40
 
   - name: Publications
-    url: '#publications'
+    url: '#published'
     weight: 20
+
+  # - name: Archives
+  #   url: '#Archives'
+  #   weight: 30
 
   # - name: Skills
   #   url: '#skills'
@@ -34,7 +38,7 @@ main:
 
   - name: Contact
     url: '#contact'
-    weight: 30
+    weight: 80
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

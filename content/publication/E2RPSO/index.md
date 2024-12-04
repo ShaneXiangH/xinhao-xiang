@@ -23,8 +23,8 @@ abstract: Particle Swarm Optimization (PSO) is an excellent population-based
   applied to multitarget searching scenarios.
 # slides: example
 url_pdf: "https://downloads.hindawi.com/journals/complexity/2020/8863526.pdf"
-# publication_types:
-#   - "Journal article"
+publication_types:
+  - "Journal article"
 authors:
   - Jian Yang
   - Ruilin Xiong

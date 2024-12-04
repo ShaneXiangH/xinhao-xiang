@@ -12,7 +12,7 @@ authors:
 #   - Ruilin Xiong
 #   - and Xinhao Xiang contributed equally to this work
 # publication: SUSTech Undergraduate Thesis 
-summary: "My undergraduate thesis."
+summary: "[Undergraduate thesis] Proposed a novel strategy of collaborative motion and multi-target searching for swarm intelligent robots under decentralized topology architecture with limited sense of perception and infocommunication ability;"
 
 url_dataset: ""
 url_project: ""
