@@ -24,7 +24,7 @@ url_source: ""
 title: "EffiPerception: an Efficient Framework for Various Perception Tasks"
 # doi: https://doi.org/10.1155/2020/8863526
 featured: false
-url_pdf: "https://arxiv.org/pdf/2403.12317"
+url_pdf: "https://arxiv.org/abs/2403.12317"
 
 tags: []
 # projects:
