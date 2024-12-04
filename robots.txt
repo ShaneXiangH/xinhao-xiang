@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://shanexiangh.github.io/xinhao-xiang/sitemap.xml
