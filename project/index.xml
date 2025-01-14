@@ -5,12 +5,38 @@
     <link>https://shanexiangh.github.io/xinhao-xiang/project/</link>
       <atom:link href="https://shanexiangh.github.io/xinhao-xiang/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© {2021-2024} Xinhao Xiang. All Rights Reserved.</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© {2021-2024} Xinhao Xiang. All Rights Reserved.</copyright><lastBuildDate>Sat, 16 Nov 2024 04:39:21 +0000</lastBuildDate>
     <image>
       <url>https://shanexiangh.github.io/xinhao-xiang/media/icon_hu12466816074341146792.png</url>
       <title>Projects</title>
       <link>https://shanexiangh.github.io/xinhao-xiang/project/</link>
     </image>
+    
+    <item>
+      <title>Open-Vocabulary Multimodal 3D Object Detection with Attributes</title>
+      <link>https://shanexiangh.github.io/xinhao-xiang/project/ovoda/</link>
+      <pubDate>Sat, 16 Nov 2024 04:39:21 +0000</pubDate>
+      <guid>https://shanexiangh.github.io/xinhao-xiang/project/ovoda/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
     
     <item>
       <title>Example Project</title>
