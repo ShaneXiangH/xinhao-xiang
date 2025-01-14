@@ -31,7 +31,7 @@ url_source: ""
 title: "A Survey of AI-Generated Video Evaluation"
 # doi: https://doi.org/10.1155/2020/8863526
 featured: false
-url_pdf: "https://arxiv.org/abs/2410.19884"
+url_pdf: "https://arxiv.org/pdf/2410.19884"
 
 tags: []
 # projects:
