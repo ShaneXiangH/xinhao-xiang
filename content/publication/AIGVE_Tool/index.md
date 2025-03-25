@@ -21,7 +21,8 @@ summary: "AIGVE-Tool introduces a unified, modular framework, a benchmark (AIGVE
 url_dataset: ""
 url_project: "https://www.aigve.org/"
 publication_short: ""
-url_source: "https://github.com/ShaneXiangH/AIGVE_Tool"
+url_source: ""
+url_code: "https://github.com/ShaneXiangH/AIGVE_Tool"
 #url_video: "https://drive.google.com/file/d/1-4rLMaELwzTadFjY1JglA715cdTOvUFk/view?usp=sharing"
 title: "AIGVE-Tool: AI-Generated Video Evaluation Toolkit with Multifaceted Benchmark"
 # doi: https://doi.org/10.1155/2020/8863526
@@ -35,7 +36,7 @@ tags: []
 #   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
 #   focal_point: ""
 #   preview_only: false
-date: 2024-09-16T04:39:21.092Z
+date: 2025-03-18T04:39:21.092Z
 
 url_slides: ""
 # publishDate: 2020-11-29T04:39:21.092Z
