@@ -5,7 +5,7 @@
 
 title: Xinhao Xiang # Website name
 baseURL: 'https://shanexiangh.github.io/xinhao-xiang/' # Website URL
-copyright: '© {2021-2024} Xinhao Xiang. All Rights Reserved.' # Footer text, e.g. '© {year} Me'
+copyright: '© {2021-2025} Xinhao Xiang. All Rights Reserved.' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
@@ -75,3 +75,11 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+
+googleAnalytics: ""
+
+params:
+  seo:
+    enable: false
+  analytics:
+    google: ""
