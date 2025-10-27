@@ -9,7 +9,7 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>MambaFuse: Object Detection with Deep Information and Pesudo Features Argumentation</title><link>https://shanexiangh.github.io/xinhao-xiang/publication/mambafuse/</link><pubDate>Sat, 16 Nov 2024 04:39:21 +0000</pubDate><guid>https://shanexiangh.github.io/xinhao-xiang/publication/mambafuse/</guid><description>&lt;!--
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>AIGVE-Tool: AI-Generated Video Evaluation Toolkit with Multifaceted Benchmark</title><link>https://shanexiangh.github.io/xinhao-xiang/publication/aigve-tool/</link><pubDate>Fri, 11 Apr 2025 04:39:21 +0000</pubDate><guid>https://shanexiangh.github.io/xinhao-xiang/publication/aigve-tool/</guid><description>&lt;!--
 &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -21,7 +21,19 @@ Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check
 &lt;/div>
 &lt;/div>
 -->
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Open-Vocabulary Multimodal 3D Object Detection with Attributes</title><link>https://shanexiangh.github.io/xinhao-xiang/project/ovoda/</link><pubDate>Sat, 16 Nov 2024 04:39:21 +0000</pubDate><guid>https://shanexiangh.github.io/xinhao-xiang/project/ovoda/</guid><description>&lt;!--
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>MambaFuse: Object Detection with Deep Information and Pesudo Features Argumentation</title><link>https://shanexiangh.github.io/xinhao-xiang/project/mambafuse/</link><pubDate>Sat, 16 Nov 2024 04:39:21 +0000</pubDate><guid>https://shanexiangh.github.io/xinhao-xiang/project/mambafuse/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Open-Vocabulary Multimodal 3D Object Detection with Attributes</title><link>https://shanexiangh.github.io/xinhao-xiang/publication/ovoda/</link><pubDate>Sat, 16 Nov 2024 04:39:21 +0000</pubDate><guid>https://shanexiangh.github.io/xinhao-xiang/publication/ovoda/</guid><description>&lt;!--
 &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -264,7 +276,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-134562789" class="chart">&lt;/div>
+&lt;div id="chart-492857361" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -273,7 +285,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-134562789', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-492857361', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -661,4 +673,4 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-&lt;p>Add the publication&amp;rsquo;s &lt;strong>full text&lt;/strong> or &lt;strong>supplementary notes&lt;/strong> here. You can use rich formatting such as including &lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/" target="_blank" rel="noopener">code, math, and images&lt;/a>.&lt;/p></description></item><item><title/><link>https://shanexiangh.github.io/xinhao-xiang/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://shanexiangh.github.io/xinhao-xiang/admin/config.yml</guid><description/></item></channel></rss>
+&lt;p>Add the publication&amp;rsquo;s &lt;strong>full text&lt;/strong> or &lt;strong>supplementary notes&lt;/strong> here. You can use rich formatting such as including &lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/" target="_blank" rel="noopener">code, math, and images&lt;/a>.&lt;/p></description></item><item><title/><link>https://shanexiangh.github.io/xinhao-xiang/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://shanexiangh.github.io/xinhao-xiang/admin/config.yml</guid><description/></item><item><title/><link>https://shanexiangh.github.io/xinhao-xiang/project/safer-safety-guanrantees-for-emergent-behavior/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://shanexiangh.github.io/xinhao-xiang/project/safer-safety-guanrantees-for-emergent-behavior/</guid><description/></item></channel></rss>
