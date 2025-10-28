@@ -1,42 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Journal Article | Xinhao Xiang</title>
-    <link>https://shanexiangh.github.io/xinhao-xiang/publication-type/journal-article/</link>
-      <atom:link href="https://shanexiangh.github.io/xinhao-xiang/publication-type/journal-article/index.xml" rel="self" type="application/rss+xml" />
-    <description>Journal Article</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© {2021-2024} Xinhao Xiang. All Rights Reserved.</copyright><lastBuildDate>Sun, 29 Nov 2020 04:39:21 +0000</lastBuildDate>
-    <image>
-      <url>https://shanexiangh.github.io/xinhao-xiang/media/icon_hu12466816074341146792.png</url>
-      <title>Journal Article</title>
-      <link>https://shanexiangh.github.io/xinhao-xiang/publication-type/journal-article/</link>
-    </image>
-    
-    <item>
-      <title>Exploration Enhanced RPSO for Collaborative Multitarget Searching of Robotic Swarms</title>
-      <link>https://shanexiangh.github.io/xinhao-xiang/publication/e2rpso/</link>
-      <pubDate>Sun, 29 Nov 2020 04:39:21 +0000</pubDate>
-      <guid>https://shanexiangh.github.io/xinhao-xiang/publication/e2rpso/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Journal article | Xinhao Xiang</title><link>https://shanexiangh.github.io/xinhao-xiang/publication-type/journal-article/</link><atom:link href="https://shanexiangh.github.io/xinhao-xiang/publication-type/journal-article/index.xml" rel="self" type="application/rss+xml"/><description>Journal article</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© {2021-2025} Xinhao Xiang. All Rights Reserved.</copyright><lastBuildDate>Sun, 29 Nov 2020 04:39:21 +0000</lastBuildDate><image><url>https://shanexiangh.github.io/xinhao-xiang/media/icon_hu97fa295c981cf3619a2662561ff5587f_2164830_512x512_fill_lanczos_center_3.png</url><title>Journal article</title><link>https://shanexiangh.github.io/xinhao-xiang/publication-type/journal-article/</link></image><item><title>Exploration Enhanced RPSO for Collaborative Multitarget Searching of Robotic Swarms</title><link>https://shanexiangh.github.io/xinhao-xiang/publication/e2rpso/</link><pubDate>Sun, 29 Nov 2020 04:39:21 +0000</pubDate><guid>https://shanexiangh.github.io/xinhao-xiang/publication/e2rpso/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item></channel></rss>
