@@ -1,0 +1,35 @@
+name: Deploy static site to Pages
+
+on:
+  push:
+    branches: [ main ]   # <-- change to 'master' if your submodule pushes there
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # Optional: prevents GitHub Pages from treating it as a Jekyll site
+      - name: Disable Jekyll
+        run: touch .nojekyll
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .  # the committed static site is the repo root
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
